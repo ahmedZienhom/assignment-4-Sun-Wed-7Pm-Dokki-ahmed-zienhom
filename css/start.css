@@ -1,0 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div::before {
+    display: table;
+    content: " ";
+}
+div::after {
+    display: table;
+    content: " ";
+}
+h1,h2,h3,h4 {
+    font-weight: 600;
+    margin: 0 0 10px;  
+}
+div::after {
+    content: "";
+    clear: both;
+}
+body {
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+a, button {
+    transition: all 0.4s ease-in-out 0s;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.floater {
+    float: left;
+}
+i {
+    text-align: center;
+}
+iframe {
+    width: 100%;
+}
