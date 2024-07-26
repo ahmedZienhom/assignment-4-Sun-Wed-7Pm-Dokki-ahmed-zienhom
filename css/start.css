@@ -48,3 +48,6 @@ i {
 iframe {
     width: 100%;
 }
+html {
+    scroll-behavior: smooth;
+}
